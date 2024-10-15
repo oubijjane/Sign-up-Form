@@ -5,12 +5,106 @@
     font-weight: normal;
     font-style: normal;
 }
+:root {
+    --font : Arial, Helvetica, sans-serif;
+}
+
+.main{
+    display: flex;
+    background-color: rgb(238, 238, 238);
+}
 
 .logoContainer {
-    background-color: rgba(0, 0, 0, 0.171);
+    background-color: rgba(0, 0, 0, 0.452);
     position: absolute;
-    top: 10px;
+    top: 300px;
+    width: 600px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 .image {
     position: relative;
+}
+.background{
+    width: 600px;
+}
+.logo {
+    height: 120px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.bigText {
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family:var(--font);
+}
+form {
+    font-family: var(--font);
+    color: rgb(53, 53, 53);
+}
+.formLayout{
+    display: flex;
+    column-gap: 50px;
+}
+#color {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 4px 5px -3px rgba(0, 0, 0, 0.384);
+}
+input {
+    width: 250px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+input:focus {
+    box-shadow: 4px 4px 5px -3px rgba(0, 0, 0, 0.384);
+    border: 1px solid blue;
+    outline: none;
+}
+input:invalid {
+    box-shadow: 4px 4px 5px -3px rgba(0, 0, 0, 0.384);
+    border: 1px solid red;
+    outline: none;
+}
+.label {
+    margin-top: 20px;   
+}
+
+button {
+    margin: 20px 20px;
+    width: 200px;
+    height: 50px;
+    font-size: large;
+    font-family: var(--font);
+    background-color: #596D48;
+    color: white;
+    border-radius: 5px;
+    border: 0px;
+    box-shadow: 0px 4px 5px -3px rgba(0, 0, 0, 0.384);
+    
+}
+p {
+    font-family: var(--font);
+    font-size: large;
+    padding: 20px;
+}
+.logoName {
+    font-family: "NorseBold";
+    color: white;
+    font-size: 70px;
+}
+#color .bigText {
+    padding: 0px;
+}
+a {
+    text-decoration: none;
+    color: #596D48;
 }

@@ -1,55 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Sing-up form</title>
 </head>
+
 <body>
     <div class="main">
         <div class="image">
-            <img src="lexi-laginess-nt6N7BS3rPk-unsplash.jpg" alt="green garden">
+            <img class="background" src="halie-west-bTzpau9mKT4-unsplash.jpg" alt="green garden">
             <div class="logoContainer">
-                <img src="odin-lined.png" alt="odin logo">
+                <img class="logo" src="odin-lined.png" alt="odin logo">
+                <p class="logoName">ODIN</p>
             </div>
         </div>
         <div class="form">
-                <p>
-                    this is not a real online service! You know you need somthing
-                    like this in your life to help ypu realize your deepest dreams.
-                    sign up now to get started.
-                </p>
+            <p class="bigText">
+                this is not a real online service! You know you need somthing
+                like this in your life to help ypu realize your deepest dreams.
+                sign up now to get started.
+            </p>
+            <div>
                 <div>
-                    <p>let's do this</p>
                     <form>
-                        <label for="firstName">
-                            FIRST NAME
-                        </label>
-                        <input type="text" name="firstName" id="firstName">
-                        <label for="lastName"></label>
-                            LAST NAME
-                        </label>
-                        <input type="text" name="lastName" id="lastName">
-                        <label for="email"></label>
-                            EMAIL
-                        </label>
-                        <input type="email" name="email" id="email">
-                        <label for="phoneNumber"></label>
-                            PHONE NUMBER
-                        </label>
-                        <input type="tel" name="phoneNumber" id="phoneNumber">
-                        <label for="password"></label>
-                            PASSWORD
-                        </label>
-                        <input type="password" name="password" id="password">
-                        <label for="confPassword"></label>
-                            CONFIRM PASSWORD
-                        </label>
-                        <input type="password" name="confPassword" id="confPassword">
+                        <div id="color">
+                            <p class="bigText">let's do this</p>
+                            <div class="formLayout">
+                                <div>
+                                    <div class="label">
+                                        <label for="firstName">
+                                            FIRST NAME
+                                        </label>
+                                    </div>
+                                    <input type="text" name="firstName" id="firstName">
+                                    <div class="label">
+                                        <label for="lastName"></label>
+                                        LAST NAME
+                                        </label>
+                                    </div>
+                                    <input type="text" name="lastName" id="lastName">
+                                    <div class="label">
+                                        <label for="password"></label>
+                                        PASSWORD
+                                        </label>
+                                    </div>
+                                    <input type="password" name="password" id="password">
+
+                                </div>
+                                <div>
+                                    <div class="label">
+                                        <label for="phoneNumber"></label>
+                                        PHONE NUMBER
+                                        </label>
+                                    </div>
+                                    <input type="tel" name="phoneNumber" id="phoneNumber">
+
+                                    <div class="label">
+                                        <label for="email"></label>
+                                        EMAIL
+                                        </label>
+                                    </div>
+                                    <input type="email" name="email" id="email">
+
+                                    <div class="label">
+                                        <label for="confPassword"></label>
+                                        CONFIRM PASSWORD
+                                        </label>
+                                    </div>
+                                    <input type="password" name="confPassword" id="confPassword">
+
+                                </div>
+                            </div>
+                        </div>
+                        <button type="submit">Create Account</button>
                     </form>
                 </div>
+                <p>Already have an account? <a href="">Log in</a></p>
+            </div>
         </div>
     </div>
 </body>
+
 </html>
