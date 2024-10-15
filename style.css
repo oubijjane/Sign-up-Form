@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "NorseBold";
+    src: url("fonts/norse-bold-webfont.woff") format("woff");
+    src: url("fonts/norse-bold-webfont.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.logoContainer {
+    background-color: rgba(0, 0, 0, 0.171);
+    position: absolute;
+    top: 10px;
+}
+.image {
+    position: relative;
+}
